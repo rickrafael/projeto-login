@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*Media- Queries */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:768px) and ( max-width:992px) { /*Tablet*/
+    body{
+        background-image: linear-gradient(to bottom ,#5F2C82, #555C8D, #4A999B );
+    }
+    
+}
+
+@media screen and ( min-width:992px) and ( max-width:1200px){ /*Desktop*/
+    body{
+        background-image: linear-gradient(to bottom ,#5F2C82, #555C8D, #4A999B );
+    }
+    
+}
+
+@media screen and ( min-width:1200px) { /*TV*/
+    body{
+        background-image: linear-gradient(to bottom ,#5F2C82, #555C8D, #4A999B );
+    }
+
+}
