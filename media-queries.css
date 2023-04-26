@@ -11,19 +11,38 @@
     body{
         background-image: linear-gradient(to bottom ,#5F2C82, #555C8D, #4A999B );
     }
-    
-}
-
-@media screen and ( min-width:992px) and ( max-width:1200px){ /*Desktop*/
-    body{
-        background-image: linear-gradient(to bottom ,#5F2C82, #555C8D, #4A999B );
+    section#login{
+       width: 80%;
+       
+    }
+    div#formulario{
+        float: right;
+        width: 70%;
+    }
+    div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
     }
     
 }
 
-@media screen and ( min-width:1200px) { /*TV*/
+@media screen and ( min-width:992px){ /*Desktop*/
     body{
         background-image: linear-gradient(to bottom ,#5F2C82, #555C8D, #4A999B );
     }
-
+    section#login{
+        width: 950px;
+    }
+    div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    div#formulario{
+        float: right;
+        width:50% ;
+    }
+    
 }
+
