@@ -61,13 +61,13 @@
         padding: 4px;
         float:right;    
         border-radius: 7px; 
-        background-size: contain;
+       
     }
     input#senha{
         padding: 4px;
         float: right;
         border-radius: 7px; 
-        background-size: contain;
+       
     }
     div.campo{
         background-color: #5E3183;
