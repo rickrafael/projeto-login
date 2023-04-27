@@ -57,18 +57,8 @@
         font-size: 12px;
         padding: 7px;
     }
-    input#email{
-        padding: 4px;
-        float:right;    
-        border-radius: 7px; 
-       
-    }
-    input#senha{
-        padding: 4px;
-        float: right;
-        border-radius: 7px; 
-       
-    }
+   
+
     div.campo{
         background-color: #5E3183;
         display: block;
@@ -76,6 +66,12 @@
         border-radius: 5px;
         margin: 10px 0px;
         
+    }
+
+    div.campo input{
+        padding: 3px;
+        padding-bottom: 9px;
+        transform: translateY(-10px);
     }
 
     div.campo label{
@@ -116,4 +112,5 @@
   }
   span{
     color: white;
+    width: 40px;
   }
