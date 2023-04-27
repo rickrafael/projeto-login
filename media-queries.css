@@ -83,12 +83,12 @@
     }
     input#email{
         width: 90%;
-        padding:5px;
+        
         
     }
     input#senha{
         width: 90%;
-        padding: 5px;
+        
     }
     span{
         padding-left: 6px;
