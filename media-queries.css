@@ -10,21 +10,48 @@
 @media screen and (min-width:768px) and ( max-width:992px) { /*Tablet*/
     body{
         background-image: linear-gradient(to bottom ,#5F2C82, #555C8D, #4A999B );
+        
     }
     section#login{
        width: 80%;
+       height: 350px;
        
     }
     div#formulario{
-        float: right;
+        float: left;
         width: 70%;
     }
+    div#formulario>h2{
+        font-size:30px ;
+    }
+    div#formulario>p{
+        font-size: 15px;
+    }
     div#imagem{
-        float: left;
+        float: right;
         width: 30%;
         height: 100%;
     }
-    
+    div.campo{
+        height: 50px;
+    }
+    input#email{
+        width: 90%;
+        height: 35px;
+
+    }
+    input#senha{
+        width: 90%;
+        height: 35px;
+
+    }
+    span{
+        padding-top: 5px;
+        padding-left: 10px;
+        color: white;
+    }
+
+   
 }
 
 @media screen and ( min-width:992px){ /*Desktop*/
@@ -33,16 +60,38 @@
     }
     section#login{
         width: 950px;
+        height: 350px;
+    }
+    div#formulario{
+        padding-top: 25px;
+    }
+    div#formulario>h2{
+        font-size:30px ;
+    }
+    div#formulario>p{
+        font-size: 15px;
     }
     div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     div#formulario{
-        float: right;
+        float: left;
         width:50% ;
+       
     }
-    
+    input#email{
+        width: 90%;
+        
+    }
+    input#senha{
+        width: 90%;
+    }
+    span{
+        padding-left: 6px;
+        color: white;
+    }
+  
 }
 

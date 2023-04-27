@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Tela Login</title>
 </head>
 <body>
@@ -20,29 +22,29 @@
           <p>Seja bem-vindo (a) novamente. Faça login para acessar sua conta e poder fazer configurações no seu ambiente.</p>
 
           <form action="login.php" method="post">
-            <p>
-                    <label for="email"></label>
-                    <input type="email" name="email" id="email" required>
-            </p>
-
-            <p>
-                    <label for="senha"></label>
-                    <input type="password" name="senha" id="senha" required>
-            </p>
-
-            <p>
-                    <input type="submit" value="Entrar" id="entrar"> <br>
-                    <input type="submit" value="Esqueci a senha" id="forgot">
-         </p>
+            <div class="campo">
+                <p>   
+                    <span class="material-icons">person</span>
+                        <input type="email" name="email" id="email" placeholder="seu e-mail" required minlength="8" >
+                        <label for="email">Login</label>
+                </p>
+            </div>
+            <div class="campo">
+                <p>
+                    <span class="material-icons">vpn_key</span>
+                        <input type="password" name="senha" id="senha" required placeholder="sua senha" minlength="7" maxlength="15">
+                        <label for="senha">senha</label>
+                </p>
+            </div>
+                     <input type="submit" value="Entrar" id="entrar"> 
+                     <a href="esqueci.html" class="botao"> Esqueci a Senha </a>
          </form>
       </div>
 
     </section>
     
     </main>
-    <footer>
-        <p>By : Ricardo Rafael</p>
-    </footer>
+
     
 </body>
 </html>
