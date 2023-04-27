@@ -58,12 +58,12 @@
         padding: 7px;
     }
     input#email{
-        padding: 4px;
+        padding: 2px;
         float:right;    
         border-radius: 7px; 
     }
     input#senha{
-        padding: 4px;
+        padding: 2px;
         float: right;
         border-radius: 7px; 
     }
